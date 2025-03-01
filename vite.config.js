@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/reactRestFulApiW2/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/startReactW3/' : '/',
   plugins: [react()],
 })
